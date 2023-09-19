@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 error</title>
+
+</head>
+<body>
+
+    <nav>
+        <a href="https://cmdsites.dev/"> &larr; back</a>    
+        <a href="file:///C:/Users/abiga/OneDrive/Desktop/HTML%20and%20CSS.pdf">home page</a>
+    </nav>
+
+    <section>    
+        <h1>Sorry to rain on your parade</h1>
+        <h3>this page not found</h3>
+
+        <img src="images/rain_image.jpg" alt="rain cloud" />
+
+        <a href="youtube.com"> &larr; back</a>
+        <!--another link for seperate style-->
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Abigail Spector</p>
+    </footer>
+
+
+    
+</body>
+</html>
