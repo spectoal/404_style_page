@@ -1,5 +1,10 @@
-.section {
-    color: #eb0a0a;
+.header-container {
+    color: #ff0000;
     background-color: #5995DA;
     padding: 20px 0;
+}
+
+.header {
+    border: 1px solid #ff0000;
+    width: 900px;
 }
