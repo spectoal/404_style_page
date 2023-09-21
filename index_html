@@ -9,7 +9,7 @@
 <body>
 
     <nav>
-        <a href="https://cmdsites.dev/"> &larr; back</a>    
+        <a href="https://cmdsites.dev/"> help</a>    
         <a href="file:///C:/Users/abiga/OneDrive/Desktop/HTML%20and%20CSS.pdf">home page</a>
     </nav>
 
@@ -19,8 +19,8 @@
 
         <img src="images/rain_image.jpg" alt="rain cloud" />
 
-        <a href="youtube.com"> &larr; back</a>
-        <!--another link for seperate style-->
+        <a href="https://internetingishard.netlify.app/html-and-css/flexbox/"> &larr; back</a>
+    
 
     </section>
 
