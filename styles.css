@@ -9,7 +9,7 @@
     justify-content: space-evenly;
     text-align: center;
     
-    height: 50px;
+    height: px;
     background-color: grey;
 
 
@@ -29,6 +29,8 @@
 
 
 .section {
+
+    min-height: 100vh;
 
     h1 {
         color: blue;
