@@ -15,7 +15,7 @@
         <a href="file:///C:/Users/abiga/OneDrive/Desktop/HTML%20and%20CSS.pdf">home page</a>
     </div>
 
-    <section>    
+    <div class="section">    
         <h1>Sorry to rain on your parade</h1>
         <h3>this page not found</h3>
 
@@ -24,11 +24,11 @@
         <a href="https://internetingishard.netlify.app/html-and-css/flexbox/"> &larr; back</a>
     
 
-    </section>
+    </div>
 
-    <footer>
+    <div class="footer">
         <p>&copy; 2023 Abigail Spector</p>
-    </footer>
+    </div>
 
 
     
