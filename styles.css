@@ -19,22 +19,34 @@
 
 }
 
-h1 {
-    color: blue;
-    text-align: right;
+
+.section {
+
+    h1 {
+        color: blue;
+        text-align: right;
+    }
+    
+    h3 {
+        color: blue;
+        text-align: right;
+    }
+
+
 }
 
-h3 {
-    color: blue;
-    text-align: right;
-}
 
 
 .footer {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-
     height: 50px;
     background-color: green; 
+
+    p {
+        color: rgb(25, 37, 3);
+        font-size: 16px;
+        text-align: center;
+    }
 }
