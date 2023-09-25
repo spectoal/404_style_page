@@ -10,10 +10,10 @@
 </head>
 <body>
 
-    <nav>
+    <div class="nav_bar">
         <a href="https://cmdsites.dev/"> help</a>    
         <a href="file:///C:/Users/abiga/OneDrive/Desktop/HTML%20and%20CSS.pdf">home page</a>
-    </nav>
+    </div>
 
     <section>    
         <h1>Sorry to rain on your parade</h1>
