@@ -4,7 +4,6 @@
 }
 
 
-
 .nav_bar {
     display: flex;
     justify-content: space-evenly;
@@ -22,12 +21,12 @@
 
 h1 {
     color: blue;
-    text-align: left;
+    text-align: right;
 }
 
 h3 {
     color: blue;
-    text-align: left;
+    text-align: right;
 }
 
 
