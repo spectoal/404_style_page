@@ -32,6 +32,11 @@
         text-align: right;
     }
 
+    img {
+        max-width: 50%;
+        height: 50%;
+    }
+
 
 }
 
@@ -47,6 +52,5 @@
     p {
         color: rgb(25, 37, 3);
         font-size: 16px;
-        text-align: center;
     }
 }
