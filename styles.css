@@ -30,7 +30,7 @@
 
 .section {
 
-    min-height: 95vh;
+    min-height: 90vh;
 
     h1 {
         color: blue;
@@ -58,7 +58,7 @@
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    height: 50px;
+    height: 55px;
     background-color: green; 
 
     p {
