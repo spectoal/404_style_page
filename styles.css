@@ -7,6 +7,11 @@
     
     height: 50px;
     background-color: grey;
+
+    a {
+        color: whitesmoke;
+    }
+
 }
 
 h1 {
@@ -26,5 +31,5 @@ h3 {
     text-align: center;
 
     height: 50px;
-    background-color: grey; 
+    background-color: green; 
 }
