@@ -12,9 +12,13 @@
     height: 50px;
     background-color: grey;
 
+
+    
+
     a {
         color: whitesmoke;
         font-size: 20px;
+        flex: 1 1 auot;
     }
 
     a:hover {
