@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    padding: 30px;
+    padding: 25px;
     height: 50px;
     background-color: grey;
 
@@ -33,7 +33,7 @@
     gap: 5px;
     grid-auto-rows: minmax(100px, auto);
 
-    min-height: 100vh;
+    min-height: 90vh;
 
     h1 {
         color: blue;
