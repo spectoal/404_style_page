@@ -33,7 +33,7 @@
     gap: 5px;
     grid-auto-rows: minmax(100px, auto);
 
-    min-height: 90vh;
+    min-height: 70vh;
 
     h1 {
         color: blue;
