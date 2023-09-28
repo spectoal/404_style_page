@@ -3,72 +3,102 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Luckiest';
+    src: url('fonts/luckiestguy-regular-webfont.woff');
+}
 
 .nav_bar {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    padding: 25px;
+    padding: 30px;
     height: 50px;
-    background-color: grey;
-
+    
+    background: linear-gradient(to bottom, rgb(68, 67, 67), whitesmoke);
 
     a {
         color: whitesmoke;
         font-size: 20px;
-        flex: 1 1 auto;
-    }
+        padding: 20px;
+        flex: 0.5 1 auto;
+        font-family: Luckiest;
 
+        margin: 10px 500px 20px 50px;
+
+    }
     a:hover {
         color: rgb(71, 71, 71)
     }
-
 }
 
 
-.section {
+/*---------------------------------------------------------------------------------*/
 
+
+.section {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 5px;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(auto, auto);
+
+    background: linear-gradient(to top, rgb(93, 92, 92), whitesmoke);
 
     min-height: 80vh;
 
+   
+    a {
+        color: whitesmoke;
+        font-size: 20px;
+
+        grid-column: 3;
+        grid-row: 4;
+    }
+    a:hover {
+        color: rgb(22, 22, 22);
+    }
+
+
     h1 {
         color: blue;
-        text-align: right;
+        text-align: center;
+
+        grid-column: 4;
+        grid-row: 1;
         
     }
     
     h3 {
         color: blue;
         text-align: right;
+        grid-column: 4;
+        grid-row:2;
     }
 
     img {
-        grid-column: 1;
+        grid-column: 2;
         grid-row: 1;
 
-        max-width: 1000px;
-        height: 1000px;
+        width: 850px;
+        height: 700px;
     }
-
-
 }
 
+
+/*------------------------------------------------------------------------------*/
 
 
 .footer {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    padding: 25px;
-    height: 55px;
+    padding: 19px;
+    height: 40px;
     background-color: green; 
 
     p {
         color: rgb(25, 37, 3);
+        padding: 20px;
         font-size: 16px;
     }
 }
