@@ -19,7 +19,7 @@
         <h1>Sorry to rain on your parade</h1>
         <h3>this page not found</h3>
 
-        <img src="images/rain_image.jpg" alt="rain cloud" />
+        <img src="images/rain_image.png" alt="rain cloud" />
 
         <a href="https://internetingishard.netlify.app/html-and-css/flexbox/"> &larr; back</a>
     
