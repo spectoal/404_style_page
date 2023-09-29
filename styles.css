@@ -6,8 +6,16 @@
 @font-face {
     font-family: 'Luckiest';
     src: url('fonts/luckiestguy-regular-webfont.woff');
+}
 
+@font-face {
+    font-family: 'Kanit';
+    src: url('fonts/kanit/kanit-extralight-webfont.woff');
+}
 
+@font-face {
+    font-family: 'Kanit2';
+    src: url('fonts/kanit/kanit-medium-webfont.woff');
 }
 
 .nav_bar {
@@ -34,7 +42,6 @@
 
 /*---------------------------------------------------------------------------------*/
 
-
 .section {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -44,11 +51,11 @@
     background: linear-gradient(to top, rgb(93, 92, 92), rgb(230, 230, 230));
 
     min-height: 80vh;
-
    
     a {
         color: whitesmoke;
         font-size: 20px;
+        font-family: Kanit;
 
         padding: 0px;
         flex: 0, 1,  auto;
@@ -64,15 +71,17 @@
 
 
     h1 {
+        font-family: Kanit2;
         color: blue;
         text-align: center;
-
+        
         grid-column: 3 / 8;
         grid-row: 1;
         
     }
     
     h3 {
+        font-family: Kanit2;
         color: blue;
         text-align: right;
         grid-column: 4 / 6;
