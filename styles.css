@@ -6,26 +6,25 @@
 @font-face {
     font-family: 'Luckiest';
     src: url('fonts/luckiestguy-regular-webfont.woff');
+
+
 }
 
 .nav_bar {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    padding: 30px;
-    height: 50px;
+    padding: 25px;
+    height: 70px;
     
-    background: linear-gradient(to bottom, rgb(68, 67, 67), whitesmoke);
+    background: linear-gradient(to bottom, rgb(68, 67, 67), rgb(230,230,230));
 
     a {
         color: whitesmoke;
-        font-size: 20px;
-        padding: 20px;
+        font-size: 30px;
+        padding: 10px;
         flex: 0.5 1 auto;
         font-family: Luckiest;
-
-        margin: 10px 500px 20px 50px;
-
     }
     a:hover {
         color: rgb(71, 71, 71)
@@ -38,11 +37,11 @@
 
 .section {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     gap: 5px;
     grid-auto-rows: minmax(auto, auto);
 
-    background: linear-gradient(to top, rgb(93, 92, 92), whitesmoke);
+    background: linear-gradient(to top, rgb(93, 92, 92), rgb(230, 230, 230));
 
     min-height: 80vh;
 
@@ -51,8 +50,13 @@
         color: whitesmoke;
         font-size: 20px;
 
+        padding: 0px;
+        flex: 0, 1,  auto;
+        margin: 20px;
+
         grid-column: 3;
-        grid-row: 4;
+        grid-row: 2;
+
     }
     a:hover {
         color: rgb(22, 22, 22);
@@ -63,7 +67,7 @@
         color: blue;
         text-align: center;
 
-        grid-column: 4;
+        grid-column: 3 / 8;
         grid-row: 1;
         
     }
@@ -71,8 +75,8 @@
     h3 {
         color: blue;
         text-align: right;
-        grid-column: 4;
-        grid-row:2;
+        grid-column: 4 / 6;
+        grid-row: 2;
     }
 
     img {
@@ -80,7 +84,7 @@
         grid-row: 1;
 
         width: 850px;
-        height: 700px;
+        height: 690px;
     }
 }
 
@@ -92,8 +96,8 @@
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    padding: 19px;
-    height: 40px;
+    padding: 10px;
+    height: 50px;
     background-color: green; 
 
     p {
