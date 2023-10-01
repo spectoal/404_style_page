@@ -19,6 +19,9 @@
 }
 
 .nav_bar {
+
+    z-index: 2;
+
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -43,6 +46,10 @@
 /*---------------------------------------------------------------------------------*/
 
 .section {
+
+    position: relative;
+    z-index: 1;
+
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 5px;
