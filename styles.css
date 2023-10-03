@@ -49,7 +49,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: 80vh;
     flex-wrap: wrap;
     gap: 5px;
     background: linear-gradient(to top, rgb(93, 92, 92), rgb(230, 230, 230));
@@ -60,7 +60,7 @@
     color: whitesmoke;
     font-size: 20px;
     font-family: Kanit;
-    padding: 0px;
+    padding: 20px;
     flex: 0 1 auto;
     margin: 20px;
     align-self: flex-end;
@@ -85,7 +85,7 @@
 .section img {
     width: 70%;
     height: 90%;
-    max-width: 100%;
+    max-width: 50%;
 }
 
 
