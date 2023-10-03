@@ -69,13 +69,6 @@
     color: rgb(22, 22, 22);
 }
 
-.section img {
-    width: 60%;
-    height: 90%;
-    max-width: 100%;
-
-}
-
 .section p {
     position: relative;
     z-index: 1;
@@ -86,6 +79,15 @@
     flex-basis: 100%; /* Adjust this value as needed */
     
 }
+
+
+.section img {
+    width: 80%;
+    height: 90%;
+    max-width: 100%;
+
+}
+
 
 /*------------------------------------------------------------------------------*/
 
