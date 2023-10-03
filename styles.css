@@ -32,7 +32,8 @@
     a {
         color: whitesmoke;
         font-size: 30px;
-        padding: 15px;
+        padding: 0px;
+        margin: 20px;
         flex: 0.5 1 auto;
         font-family: Luckiest;
     }
@@ -48,7 +49,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: auto;
     flex-wrap: wrap;
     gap: 5px;
     background: linear-gradient(to top, rgb(93, 92, 92), rgb(230, 230, 230));
@@ -82,10 +83,9 @@
 
 
 .section img {
-    width: 80%;
+    width: 70%;
     height: 90%;
     max-width: 100%;
-
 }
 
 
